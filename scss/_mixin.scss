@@ -1,0 +1,14 @@
+@mixin botonesContacto ($altoBoton, $anchoBoton, $colorBoton, $letraBoton) {
+    height: $altoBoton;
+    width: $anchoBoton;
+    background-color: $colorBoton;
+    
+
+}
+
+.boton1{
+@include botonesContacto(50px,100px ,pink , fantasy )
+}    
+.boton2 {
+@include botonesContacto(50px, 100px , violet , arial )
+}
