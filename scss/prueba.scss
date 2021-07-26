@@ -5,23 +5,20 @@ body{
     height: 1700px;      
 }
 header{
-    padding: 20px 0px 0px 10px;
-    background-image: $colorFondo;
-    border-bottom: black double; 
-
+    background-image: $colorFondo; 
+    height: 200px;
+    
     h1{
         text-align: center; 
         font-family: $tipografiaTitulos;
-        font-size: 80px;
+        font-size: 60px;
         color:$colorTitulo;                    
     }
     #logo{    
-        border-style: double;    
-        bottom: 50px;
-        display: block;
-        margin: 0px auto;
+        display:inline;
+        margin: 2px auto;
         position: relative;
-        bottom: 1rem; 
+        
     }
 }
 main{
@@ -49,7 +46,6 @@ nav{
     li{
         text-align: center;          
         width: 16%;
-        border-right: 3px solid rgb(8, 2, 8);
         
         a{
           font-family: $tipografia;
@@ -60,10 +56,10 @@ nav{
 }
 #menu ul{
     list-style-type: none; 
-    background-color: rgb(235, 156, 235);
+    background-color: rgb(223, 168, 223);
     display: flex;
     align-items: center;
-    height: 60px;  
+    height: 50px;  
     border-bottom: 1px double black;    
 }
 footer{

@@ -12,21 +12,17 @@ body {
   height: 1700px; }
 
 header {
-  padding: 20px 0px 0px 10px;
   background-image: linear-gradient(#faf6f9, #dfa8df);
-  border-bottom: black double; }
+  height: 200px; }
   header h1 {
     text-align: center;
     font-family: "Luckiest Guy", cursive;
-    font-size: 80px;
+    font-size: 60px;
     color: #421642; }
   header #logo {
-    border-style: double;
-    bottom: 50px;
-    display: block;
-    margin: 0px auto;
-    position: relative;
-    bottom: 1rem; }
+    display: inline;
+    margin: 2px auto;
+    position: relative; }
 
 main {
   height: 1200px;
@@ -46,8 +42,7 @@ nav {
   top: 0%; }
   nav li {
     text-align: center;
-    width: 16%;
-    border-right: 3px solid #080208; }
+    width: 16%; }
     nav li a {
       font-family: fantasy;
       color: #421642;
@@ -55,10 +50,10 @@ nav {
 
 #menu ul {
   list-style-type: none;
-  background-color: #eb9ceb;
+  background-color: #dfa8df;
   display: flex;
   align-items: center;
-  height: 60px;
+  height: 50px;
   border-bottom: 1px double black; }
 
 footer {
