@@ -2,7 +2,7 @@
 @import "_mixin.scss";
 
 body{
-    height: 1700px;      
+    height: 2000px;      
 }
 header{
     background-image: $colorFondo; 
@@ -11,6 +11,7 @@ header{
     h1{
         text-align: center; 
         font-family: $tipografiaTitulos;
+        margin: auto;
         font-size: 60px;
         color:$colorTitulo;                    
     }
@@ -22,7 +23,7 @@ header{
     }
 }
 main{
-    height: 1200px;
+    height: 1600px;
     width: 100%;
     background-image: $colorMain;
 
@@ -157,4 +158,58 @@ footer{
         @extend .escribe;
     }  
   }
+}
+#cajaCurVir {
+    display: flex;
+    margin: auto;
+    background-color: rgb(245, 231, 245);
+    height: 700px;
+    
+     video { 
+         width: 100%;
+     }    
+}
+#cajaCurPre {
+    display: flex;
+    margin: auto;
+    background-color: rgb(245, 231, 245);
+    height: 700px;
+    
+     video { 
+         width: 100%;
+     }
+}      
+.table-secondary{
+    height: 80px;
+}
+.table-danger{
+    height: 80px;
+} 
+#cajaComp{
+    display: flex;
+    margin: auto 20px;
+    background-color: rgb(245, 231, 245);
+    height: 1000px;
+    width: 800px;
+     
+    .cajaComp1 {
+        height: 250px;
+        margin: 20px;
+
+    }
+    .cajaComp2 {
+        height: 25%;
+        width: 25%;
+        margin: 20px;
+    }
+}
+@media only screen and (max-width: 800px ){
+
+}
+#cajaIndex {
+    display: flex;
+    margin: auto 20px;
+    background-color: rgb(245, 231, 245);
+    height: 200px;
+    width: 100%;
 }

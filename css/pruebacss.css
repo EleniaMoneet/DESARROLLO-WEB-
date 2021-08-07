@@ -9,14 +9,15 @@
   background-color: violet; }
 
 body {
-  height: 1700px; }
+  height: 2000px; }
 
 header {
   background-image: linear-gradient(#faf6f9, #dfa8df);
   height: 200px; }
   header h1 {
     text-align: center;
-    font-family: "Luckiest Guy", cursive;
+    font-family: "Vollkorn SC", serif;
+    margin: auto;
     font-size: 60px;
     color: #421642; }
   header #logo {
@@ -25,7 +26,7 @@ header {
     position: relative; }
 
 main {
-  height: 1200px;
+  height: 1600px;
   width: 100%;
   background-image: linear-gradient(#fcf9fb, #ebdbeb); }
   main section {
@@ -119,11 +120,54 @@ footer {
     font-family: fantasy;
     color: #421642; }
     .formulario .form legend {
-      font-family: "Luckiest Guy", cursive;
+      font-family: "Vollkorn SC", serif;
       font-size: 40px; }
     .formulario .form .datos, .formulario .form .datos2 {
-      font-family: "Luckiest Guy", cursive;
+      font-family: "Vollkorn SC", serif;
       font-size: 20px; }
     .formulario .form .escribe, .formulario .form .escribe2 {
-      font-family: "Luckiest Guy", cursive;
+      font-family: "Vollkorn SC", serif;
       font-size: 20px; }
+
+#cajaCurVir {
+  display: flex;
+  margin: auto;
+  background-color: #f5e7f5;
+  height: 700px; }
+  #cajaCurVir video {
+    width: 100%; }
+
+#cajaCurPre {
+  display: flex;
+  margin: auto;
+  background-color: #f5e7f5;
+  height: 700px; }
+  #cajaCurPre video {
+    width: 100%; }
+
+.table-secondary {
+  height: 80px; }
+
+.table-danger {
+  height: 80px; }
+
+#cajaComp {
+  display: flex;
+  margin: auto 20px;
+  background-color: #f5e7f5;
+  height: 1000px;
+  width: 800px; }
+  #cajaComp .cajaComp1 {
+    height: 250px;
+    margin: 20px; }
+  #cajaComp .cajaComp2 {
+    height: 25%;
+    width: 25%;
+    margin: 20px; }
+
+#cajaIndex {
+  display: flex;
+  margin: auto 20px;
+  background-color: #f5e7f5;
+  height: 200px;
+  width: 100%; }
